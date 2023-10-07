@@ -22,7 +22,7 @@ const Services = () => {
         <div style={backgroundStyle}>
             <h2 className="text-5xl text-center font-semibold pt-20">Our Services</h2>
 
-            <div className="grid grid-cols-3 max-w-screen-xl mx-auto mt-10 gap-10">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 max-w-screen-xl px-5  mx-auto mt-10 gap-10">
                 {
                     data.map(data => <Service key={data.id} data={data}></Service>)
                 }
