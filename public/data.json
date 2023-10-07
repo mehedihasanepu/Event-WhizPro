@@ -2,11 +2,13 @@
     {
         "id": 1,
         "title": "Workshops",
-        "img": "https://i.ibb.co/F4RM7q8/workshops.jpg",
-        "img1": "https://i.ibb.co/jLZZsR6/workshops1.jpg",
-        "img2": "https://i.ibb.co/RjjQyQ2/workshops2.jpg",
+        "img": "https://i.ibb.co/RjjQyQ2/workshops2.jpg",
+        "img1": "https://i.ibb.co/F4RM7q8/workshops.jpg",
+        "img2": "https://i.ibb.co/jLZZsR6/workshops1.jpg",
         "short_description": "Elevate Your Workshops with Our Expert Event Management Services! We specialize in delivering seamless and engaging workshop experiences. From planning and logistics to attendee engagement, we've got you covered. Let us help you make your workshops unforgettable.",
-        "price": 49.99,
+        "price1": 49.99,
+        "price2": 49.99,
+        "price3": "Coustiom",
         "long_description": "At our Company , we understand that workshops are powerful tools for knowledge sharing, skill development, and networking. Crafting a successful workshop, however, requires meticulous planning, attention to detail, and flawless execution. That's where our expert Event Management Services come into play. Our dedicated team of event professionals is passionate about creating memorable and impactful workshop experiences. With years of experience in the field, we've honed our skills to provide comprehensive workshop management solutions tailored to your unique needs",
         "details": [
             "Photography and Videography: Our skilled photographers and videographers capture every moment of your workshop, preserving the highlights, interactions, and key takeaways. We provide high-quality visual content that can be used for marketing, documentation, and future promotions.",
@@ -21,13 +23,11 @@
         "venues": [
             {
                 "name": "Bangabandhu International Conference Center",
-                "address": "Bir Uttom Khaled Mosharraf Ave, Dhaka 1207
-                Dhaka, Bangladesh"
+                "address": "Bir Uttom Khaled Mosharraf Ave, Dhaka 1207 Dhaka, Bangladesh"
             },
             {
                 "name": "Pan Pacific Sonargaon Dhaka Hotel",
-                "address": "107 Kazi Nazrul Islam Ave, Dhaka 1215
-                Dhaka, Bangladesh"
+                "address": "107 Kazi Nazrul Islam Ave, Dhaka 1215 Dhaka, Bangladesh"
             },
             {
                 "name": "BAF Falcon Halll",
@@ -50,7 +50,9 @@
         "img1": "https://i.ibb.co/pdDTRQq/career-fairs1.jpg",
         "img2": "https://i.ibb.co/HhvhL83/career-fairs.png",
         "short_description": "Transform Your Career Fairs with Our Expert Event Management Services! We specialize in creating seamless and impactful Career Fair experiences. From strategic planning and logistics to attendee engagement, we've got you covered. Let us help you make your Career Fairs a resounding success.",
-        "price": 49.99,
+        "price1": 49.99,
+        "price2": 49.99,
+        "price3": "Coustiom",
         "long_description": "At our company, we understand that Career Fairs are pivotal events for connecting employers with top talent and helping job seekers find their dream opportunities. Crafting a successful Career Fair requires meticulous planning, innovative strategies, and flawless execution. That's where our expert Event Management Services come into play. Our dedicated team of event professionals is passionate about creating memorable and productive Career Fair experiences. With years of experience in the field, we've honed our skills to provide comprehensive Career Fair management solutions tailored to your unique needs.",
         "details": [
             "Photography and Videography: Our skilled photographers and videographers capture every moment of your workshop, preserving the highlights, interactions, and key takeaways. We provide high-quality visual content that can be used for marketing, documentation, and future promotions.",
@@ -65,13 +67,11 @@
         "venues": [
             {
                 "name": "Bangabandhu International Conference Center",
-                "address": "Bir Uttom Khaled Mosharraf Ave, Dhaka 1207
-                Dhaka, Bangladesh"
+                "address": "Bir Uttom Khaled Mosharraf Ave, Dhaka 1207 Dhaka, Bangladesh"
             },
             {
                 "name": "Pan Pacific Sonargaon Dhaka Hotel",
-                "address": "107 Kazi Nazrul Islam Ave, Dhaka 1215
-                Dhaka, Bangladesh"
+                "address": "107 Kazi Nazrul Islam Ave, Dhaka 1215 Dhaka, Bangladesh"
             },
             {
                 "name": "BAF Falcon Halll",
@@ -94,7 +94,9 @@
         "img1": "https://i.ibb.co/x1F2XCw/educational-conferences1.jpg",
         "img2": "https://i.ibb.co/MSJfKZN/educational-conferences2.jpg",
         "short_description": "Elevate Your Educational Conferences with Our Expert Event Management Services! We specialize in creating seamless and impactful conference experiences for educational institutions. From strategic planning and logistics to engaging content and attendee experience, we've got you covered. Let us help you make your Educational Conferences a resounding success.",
-        "price": 49.99,
+        "price1": 49.99,
+        "price2": 49.99,
+        "price3": "Coustiom",
         "long_description": "At our company, we understand that Educational Conferences play a pivotal role in knowledge dissemination, professional development, and networking within the education sector. Crafting a successful Educational Conference requires meticulous planning, innovative strategies, and flawless execution. That's where our expert Event Management Services come into play. Our dedicated team of event professionals is passionate about creating memorable and insightful conference experiences tailored to the unique needs of educational institutions. With years of experience in the field, we've honed our skills to provide comprehensive conference management solutions.",
         "details": [
             "Photography and Videography: Our skilled photographers and videographers capture every moment of your workshop, preserving the highlights, interactions, and key takeaways. We provide high-quality visual content that can be used for marketing, documentation, and future promotions.",
@@ -109,13 +111,11 @@
         "venues": [
             {
                 "name": "Bangabandhu International Conference Center",
-                "address": "Bir Uttom Khaled Mosharraf Ave, Dhaka 1207
-                Dhaka, Bangladesh"
+                "address": "Bir Uttom Khaled Mosharraf Ave, Dhaka 1207 Dhaka, Bangladesh"
             },
             {
                 "name": "Pan Pacific Sonargaon Dhaka Hotel",
-                "address": "107 Kazi Nazrul Islam Ave, Dhaka 1215
-                Dhaka, Bangladesh"
+                "address": "107 Kazi Nazrul Islam Ave, Dhaka 1215 Dhaka, Bangladesh"
             },
             {
                 "name": "BAF Falcon Halll",
@@ -138,7 +138,9 @@
         "img1": "https://i.ibb.co/5x9MWN8/training-programs1.webp",
         "img2": "https://i.ibb.co/F4mb04y/training-programs2.jpg",
         "short_description": "Discover excellence in event training with our Training Programs Management Services. We specialize in crafting dynamic training sessions tailored to your event management needs. From event planning fundamentals to advanced strategic insights, our programs empower you with the skills and knowledge required to excel in the industry. Elevate your event management expertise with us.",
-        "price": 49.99,
+        "price1": 49.99,
+        "price2": 49.99,
+        "price3": "Coustiom",
         "long_description": "At our company, we take pride in offering comprehensive Training Programs Management Services that are designed to equip you with the expertise needed to excel in the dynamic world of event management. Our training programs are crafted with meticulous attention to detail, providing a holistic and immersive learning experience. Whether you are a novice looking to kickstart your career or an experienced professional aiming to enhance your skills, our training programs cater to diverse skill levels and needs. Our team of seasoned event experts, trainers, and industry specialists bring a wealth of knowledge and hands-on experience to each training session. Our training curriculum covers a wide spectrum of topics, including event planning, logistics, marketing, budgeting, and crisis management. We believe in a practical, results-driven approach, ensuring that our participants gain not only theoretical knowledge but also practical insights and problem-solving abilities.",
         "details": [
             "Photography and Videography: Our skilled photographers and videographers capture every moment of your workshop, preserving the highlights, interactions, and key takeaways. We provide high-quality visual content that can be used for marketing, documentation, and future promotions.",
@@ -153,13 +155,11 @@
         "venues": [
             {
                 "name": "Bangabandhu International Conference Center",
-                "address": "Bir Uttom Khaled Mosharraf Ave, Dhaka 1207
-                Dhaka, Bangladesh"
+                "address": "Bir Uttom Khaled Mosharraf Ave, Dhaka 1207 Dhaka, Bangladesh"
             },
             {
                 "name": "Pan Pacific Sonargaon Dhaka Hotel",
-                "address": "107 Kazi Nazrul Islam Ave, Dhaka 1215
-                Dhaka, Bangladesh"
+                "address": "107 Kazi Nazrul Islam Ave, Dhaka 1215 Dhaka, Bangladesh"
             },
             {
                 "name": "BAF Falcon Halll",
@@ -182,7 +182,9 @@
         "img1": "https://i.ibb.co/hyFw0Rb/educational-technology1.webp",
         "img2": "https://i.ibb.co/dftrbmk/educational-technology2.jpg",
         "short_description": "Elevate Educational Technology Conferences with Our Expert Event Management Services! We specialize in creating seamless and innovative conference experiences at the intersection of education and technology. From strategic planning and logistics to engaging content and attendee engagement, we've got you covered. Let us help you make your educational technology conferences a resounding success.",
-        "price": 49.99,
+        "price1": 49.99,
+        "price2": 49.99,
+        "price3": "Coustiom",
         "long_description": "At our company, we understand the profound impact that Educational Technology Conferences can have on shaping the future of education. These conferences serve as crucial platforms for educators, technologists, and innovators to come together, share insights, and explore the latest advancements in educational technology. Crafting a successful Educational Technology Conference requires meticulous planning, innovative strategies, and flawless execution. That's where our expert Event Management Services come into play. Our dedicated team of event professionals is passionate about creating memorable and forward-thinking Educational Technology Conference experiences. With years of experience in the field, we've honed our skills to provide comprehensive conference management solutions tailored to the unique needs of the education and technology sectors.",
         "details": [
             "Photography and Videography: Our skilled photographers and videographers capture every moment of your workshop, preserving the highlights, interactions, and key takeaways. We provide high-quality visual content that can be used for marketing, documentation, and future promotions.",
@@ -197,13 +199,11 @@
         "venues": [
             {
                 "name": "Bangabandhu International Conference Center",
-                "address": "Bir Uttom Khaled Mosharraf Ave, Dhaka 1207
-                Dhaka, Bangladesh"
+                "address": "Bir Uttom Khaled Mosharraf Ave, Dhaka 1207 Dhaka, Bangladesh"
             },
             {
                 "name": "Pan Pacific Sonargaon Dhaka Hotel",
-                "address": "107 Kazi Nazrul Islam Ave, Dhaka 1215
-                Dhaka, Bangladesh"
+                "address": "107 Kazi Nazrul Islam Ave, Dhaka 1215 Dhaka, Bangladesh"
             },
             {
                 "name": "BAF Falcon Halll",
@@ -226,7 +226,9 @@
         "img1": "https://i.ibb.co/VtF7V8f/professional-development1.jpg",
         "img2": "https://i.ibb.co/WgDDkV9/professional-development2.jpg",
         "short_description": "Elevate Your Professional Development Conferences with Our Expert Event Management Services! We specialize in creating seamless and impactful conferences tailored for your organization's growth. From strategic planning and logistics to engaging content and attendee experience, we've got you covered. Let us help you make your Professional Development Conferences a resounding success.",
-        "price": 49.99,
+        "price1": 49.99,
+        "price2": 49.99,
+        "price3": "Coustiom",
         "long_description": "At our company, we recognize the vital role that Professional Development Conferences play in nurturing talent, fostering growth, and advancing industries. Crafting a successful Professional Development Conference requires meticulous planning, innovative strategies, and flawless execution. That's where our expert Event Management Services come into play. Our dedicated team of event professionals is passionate about creating memorable and transformative Professional Development Conference experiences. With years of experience in the field, we've honed our skills to provide comprehensive conference management solutions tailored to your organization's unique needs.",
         "details": [
             "Photography and Videography: Our skilled photographers and videographers capture every moment of your workshop, preserving the highlights, interactions, and key takeaways. We provide high-quality visual content that can be used for marketing, documentation, and future promotions.",
@@ -241,13 +243,11 @@
         "venues": [
             {
                 "name": "Bangabandhu International Conference Center",
-                "address": "Bir Uttom Khaled Mosharraf Ave, Dhaka 1207
-                Dhaka, Bangladesh"
+                "address": "Bir Uttom Khaled Mosharraf Ave, Dhaka 1207 Dhaka, Bangladesh"
             },
             {
                 "name": "Pan Pacific Sonargaon Dhaka Hotel",
-                "address": "107 Kazi Nazrul Islam Ave, Dhaka 1215
-                Dhaka, Bangladesh"
+                "address": "107 Kazi Nazrul Islam Ave, Dhaka 1215 Dhaka, Bangladesh"
             },
             {
                 "name": "BAF Falcon Halll",
@@ -262,5 +262,5 @@
             "phone": "+1-800-123-4567",
             "email": "support@example.com"
         }
-    },
+    }
 ]

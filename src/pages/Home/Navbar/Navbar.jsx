@@ -8,9 +8,8 @@ const Navbar = () => {
         <NavLink className="text-xl font-semibold text-white p-2 px-4 rounded-lg mr-10" to="/login">Login</NavLink>
         <NavLink className="text-xl font-semibold text-white p-2 px-4 rounded-lg mr-10" to="/register">Register</NavLink>
     </>
-// bg-gradient-to-r from-cyan-500 to-blue-500
     return (
-        <div className="max-w-screen-xl mx-auto">
+        <div className="max-w-screen-xl mx-auto" >
             <div className="flex flex-row-reverse lg:flex-row items-center md:px-5 justify-between gap-0 lg:gap-[700px]  pt-6 pl-10 lg:absolute lg:z-20">
                 <div className="lg:hidden ">
                     <div className=" dropdown flex-row-reverse">
