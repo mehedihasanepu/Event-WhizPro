@@ -26,7 +26,7 @@ const WhyChooseUs = () => {
 
                 <div className="flex flex-col lg:flex-row items-center my-10 gap-10">
                     <div className="w-10/12 lg:w-7/12 space-y-2 text-center lg:text-start">
-                        <h4 className="text-xl font-semibold">WE ARE HARMONI</h4>
+                        <h4 className="text-xl font-semibold">WE ARE EVENT WHIZ PRO</h4>
                         <h2 className="text-3xl md:text-4xl font-extrabold  md:font-semibold ">No.1 Events Management</h2>
                         <p className="text-lg">We are a dynamic educational and training events management company dedicated to empowering individuals and organizations through innovative workshops, webinars, career fairs, educational conferences, and training programs.</p>
                     </div>

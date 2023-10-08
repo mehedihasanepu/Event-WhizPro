@@ -28,7 +28,7 @@ const Header = () => {
             <Swiper {...settings} className="mySwiper" navigation={true}>
                 <SwiperSlide>
                     <div>
-                        <img className="h-screen w-screen" src={bannerImg1} alt="" />
+                        <img className="h-96 md:h-screen w-screen" src={bannerImg1} alt="" />
 
                         <div className="hero h-full absolute top-0 left-0 bg-black bg-opacity-60 text-white ">
                             <div className="hero-continent text-center">
@@ -43,7 +43,7 @@ const Header = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                     <div>
-                        <img className="h-screen w-screen" src={bannerImg2} alt="" />
+                        <img className="h-96 md:h-screen w-screen" src={bannerImg2} alt="" />
                         <div className="hero h-full absolute top-0 left-0 bg-black bg-opacity-50 text-white ">
                             <div className="hero-continent text-center">
                                 <h2 className="text-3xl md:text-5xl lg:text-6xl font-semibold">One Stop</h2>
@@ -57,7 +57,7 @@ const Header = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                     <div>
-                        <img className="h-screen w-screen" src={bannerImg3} alt="" />
+                        <img className="h-96 md:h-screen w-screen" src={bannerImg3} alt="" />
                         <div className="hero h-full absolute top-0 left-0 bg-black bg-opacity-50 text-white ">
                             <div className="hero-continent text-center">
                                 <h2 className="text-3xl md:text-5xl lg:text-6xl font-semibold">One Stop</h2>
@@ -71,7 +71,7 @@ const Header = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                     <div>
-                        <img className="h-screen w-screen" src={bannerImg4} alt="" />
+                        <img className="h-96 md:h-screen w-screen" src={bannerImg4} alt="" />
                         <div className="hero h-full absolute top-0 left-0 bg-black bg-opacity-50 text-white ">
                             <div className="hero-continent text-center">
                                 <h2 className="text-3xl md:text-5xl lg:text-6xl font-semibold">One Stop</h2>
@@ -85,7 +85,7 @@ const Header = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                     <div>
-                        <img className="h-screen w-screen" src={bannerImg5} alt="" />
+                        <img className="h-96 md:h-screen w-screen" src={bannerImg5} alt="" />
                         <div className="hero h-full absolute top-0 left-0 bg-black bg-opacity-50 text-white ">
                             <div className="hero-continent text-center">
                                 <h2 className="text-3xl md:text-5xl lg:text-6xl font-semibold">One Stop</h2>
@@ -99,7 +99,7 @@ const Header = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                     <div>
-                        <img className="h-screen w-screen" src={bannerImg6} alt="" />
+                        <img className="h-96 md:h-screen w-screen" src={bannerImg6} alt="" />
                         <div className="hero h-full absolute top-0 left-0 bg-black bg-opacity-50 text-white ">
                             <div className="hero-continent text-center">
                                 <h2 className="text-3xl md:text-5xl lg:text-6xl font-semibold"  data-aos="fade-up-right">One Stop</h2>
