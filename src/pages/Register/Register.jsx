@@ -19,8 +19,7 @@ const Register = () => {
 
     return (
         <div style={backgroundStyle} className="h-full">
-            <Navbar></Navbar>
-            <div>
+            <div className="mb-20">
                 <div className="hero min-h-screen">
                     <div className="hero-content flex-col lg:flex-row mt-14 w-full">
                         <div className="text-center lg:text-left">
@@ -60,8 +59,8 @@ const Register = () => {
                                     <button className="btn rounded-3xl bg-gradient-to-r from-[#ff4c05db] to-[#ffa719d8] text-white">Sing Up</button>
                                 </div>
                                 <div className="mt-2">
-                                    <p className="text-center">———————— Or Sing up With ————————</p>
-                                    <div className="flex items-center justify-around mt-4">
+                                    <p className="text-center text-xs md:text-base">———— Or Sing up With ————</p>
+                                    <div className="flex items-center justify-around mt-4 ">
                                         <div className="flex items-center gap-2 border border-[#ff4c05db] p-1 px-2 rounded-xl cursor-pointer">
                                             <img className="w-10 " src={google} alt="" />
                                             <p className="font-bold">Google</p>

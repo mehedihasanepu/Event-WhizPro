@@ -1,6 +1,7 @@
+import { Link } from "react-router-dom";
 
 const Service = ({ data }) => {
-    const { title, img, short_description, price1 } = data
+    const {id, title, img, short_description, price1 } = data
 
 
     return (
@@ -12,9 +13,9 @@ const Service = ({ data }) => {
                     <h4 className="text-[17px] font-semibold text-[#ff4c05]" >Price start from {price1}</h4>
                     <hr />
                     <p> {short_description.slice(0, 195)}...</p>
-                    <div className="card-actions  ">
+                    <Link to={`/serviceDetails/${id}`} className="card-actions  ">
                         <button className="btn bg-gradient-to-r from-[#ff4c05] to-[#ffa719] text-white w-full rounded-xl ">See Details !</button>
-                    </div>
+                    </Link>
                 </div>
             </div>
         </div>

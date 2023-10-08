@@ -4,6 +4,7 @@ import singIn from "../../../src/assets/images/Signin.gif"
 import google from "../../../src/assets/images/icon/google.png"
 import github from "../../../src/assets/images/icon/github.png"
 import { Link } from "react-router-dom";
+import Footer from "../Home/Footer/Footer";
 const Login = () => {
 
 
@@ -19,8 +20,7 @@ const Login = () => {
 
 
     return (
-        <div style={backgroundStyle} className="h-screen">
-            <Navbar></Navbar>
+        <div style={backgroundStyle} className="h-full">
             <div>
                 <div className="hero min-h-screen">
                     <div className="hero-content flex-col lg:flex-row-reverse mt-20 w-full">

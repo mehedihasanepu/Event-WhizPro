@@ -3,6 +3,8 @@ import "./root.css"
 import { useEffect } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Navbar from "../pages/Home/Navbar/Navbar";
+import Footer from "../pages/Home/Footer/Footer";
 
 
 
@@ -17,7 +19,9 @@ const Root = () => {
 
     return (
         <div>
+            <Navbar></Navbar>
             <Outlet></Outlet>
+            <Footer></Footer>
         </div>
     );
 };
