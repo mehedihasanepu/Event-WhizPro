@@ -8,18 +8,45 @@
         "short_description": "Elevate Your Workshops with Our Expert Event Management Services! We specialize in delivering seamless and engaging workshop experiences. From planning and logistics to attendee engagement, we've got you covered. Let us help you make your workshops unforgettable.",
         "price1": 49.99,
         "price2": 49.99,
-        "price3": "Coustiom",
+        "price3": 69.99,
         "long_description": "At our Company , we understand that workshops are powerful tools for knowledge sharing, skill development, and networking. Crafting a successful workshop, however, requires meticulous planning, attention to detail, and flawless execution. That's where our expert Event Management Services come into play. Our dedicated team of event professionals is passionate about creating memorable and impactful workshop experiences. With years of experience in the field, we've honed our skills to provide comprehensive workshop management solutions tailored to your unique needs",
         "details": [
-            "Photography and Videography: Our skilled photographers and videographers capture every moment of your workshop, preserving the highlights, interactions, and key takeaways. We provide high-quality visual content that can be used for marketing, documentation, and future promotions.",
-            "Strategic Planning: We work closely with you to define the goals and objectives of your workshop. Our strategic planning ensures that every aspect of your event aligns with your vision and delivers tangible results.",
-            "Logistics and Venue Management: From selecting the perfect venue to managing logistics, we handle all the behind-the-scenes details. Our meticulous approach ensures a smooth flow of activities and a comfortable environment for your attendees.",
-            "Content Development: Our team collaborates with subject matter experts to craft engaging workshop content that resonates with your audience. We focus on creating interactive and informative sessions that leave a lasting impact.",
-            "Marketing and Promotion: We leverage our marketing expertise to promote your workshop, attract the right audience, and maximize attendance. Our strategies ensure that your workshop gets the attention it deserves.",
-            "Technology Integration: We stay at the forefront of event technology to enhance participant engagement. Whether it's virtual or in-person workshops, we utilize cutting-edge tools and platforms to create immersive experiences.",
-            "On-site Management: Our on-site team takes care of every detail during the workshop, ensuring that everything runs smoothly. From registration to participant assistance, we provide a seamless experience.",
-            "Post-Event Analysis: We believe in continuous improvement. After your workshop concludes, we conduct a thorough analysis to measure success and gather feedback for future enhancements."
+            {
+                "name": "Photography and Videography",
+                "details": " Our skilled photographers and videographers capture every moment of your workshop, preserving the highlights, interactions, and key takeaways. We provide high-quality visual content that can be used for marketing, documentation, and future promotions."
+            },
+            {
+                "name": "Strategic Planning",
+                "details": " We work closely with you to define the goals and objectives of your workshop. Our strategic planning ensures that every aspect of your event aligns with your vision and delivers tangible results."
+            },
+            {
+                "name": "Logistics and Venue Management",
+                "details": " From selecting the perfect venue to managing logistics, we handle all the behind-the-scenes details. Our meticulous approach ensures a smooth flow of activities and a comfortable environment for your attendees."
+            },
+            {
+                "name": "Content Development",
+                "details": " Our team collaborates with subject matter experts to craft engaging workshop content that resonates with your audience. We focus on creating interactive and informative sessions that leave a lasting impact."
+            },
+            {
+                "name": "Marketing and Promotion",
+                "details": " We leverage our marketing expertise to promote your workshop, attract the right audience, and maximize attendance. Our strategies ensure that your workshop gets the attention it deserves."
+            },
+            {
+                "name": "Technology Integration",
+                "details": " We stay at the forefront of event technology to enhance participant engagement. Whether it's virtual or in-person workshops, we utilize cutting-edge tools and platforms to create immersive experiences."
+            },
+            {
+                "name": "On-site Management",
+                "details": " Our on-site team takes care of every detail during the workshop, ensuring that everything runs smoothly. From registration to participant assistance, we provide a seamless experience."
+            },
+            {
+                "name": "Post-Event Analysis",
+                "details": " We believe in continuous improvement. After your workshop concludes, we conduct a thorough analysis to measure success and gather feedback for future enhancements."
+            }
         ],
+
+
+
         "venues": [
             {
                 "name": "Bangabandhu International Conference Center",
@@ -37,11 +64,7 @@
                 "name": "The Waterfront Convention Hall",
                 "address": "Hatirjheel New Entrance, Dhaka 1219"
             }
-        ],
-        "technical_support": {
-            "phone": "+1-800-123-4567",
-            "email": "support@example.com"
-        }
+        ]
     },
     {
         "id": 2,
@@ -52,18 +75,44 @@
         "short_description": "Transform Your Career Fairs with Our Expert Event Management Services! We specialize in creating seamless and impactful Career Fair experiences. From strategic planning and logistics to attendee engagement, we've got you covered. Let us help you make your Career Fairs a resounding success.",
         "price1": 49.99,
         "price2": 49.99,
-        "price3": "Coustiom",
+        "price3": 69.99,
         "long_description": "At our company, we understand that Career Fairs are pivotal events for connecting employers with top talent and helping job seekers find their dream opportunities. Crafting a successful Career Fair requires meticulous planning, innovative strategies, and flawless execution. That's where our expert Event Management Services come into play. Our dedicated team of event professionals is passionate about creating memorable and productive Career Fair experiences. With years of experience in the field, we've honed our skills to provide comprehensive Career Fair management solutions tailored to your unique needs.",
         "details": [
-            "Photography and Videography: Our skilled photographers and videographers capture every moment of your workshop, preserving the highlights, interactions, and key takeaways. We provide high-quality visual content that can be used for marketing, documentation, and future promotions.",
-            "Strategic Planning: We collaborate closely with you to define the objectives and goals of your Career Fair. Our strategic planning ensures that every aspect of your event aligns with your vision and delivers measurable results",
-            "Logistics and Venue Management: From selecting the perfect venue to managing logistics, we handle all the behind-the-scenes details. Our meticulous approach ensures a smooth flow of activities and a comfortable environment for your attendees.",
-            "Content Development: Our team collaborates with subject matter experts to craft engaging workshop content that resonates with your audience. We focus on creating interactive and informative sessions that leave a lasting impact.",
-            "Marketing and Promotion: We leverage our marketing expertise to promote your Career Fair, attract top employers and job seekers, and maximize attendance. Our strategies ensure that your event receives the visibility it deserves",
-            "Technology Integration: We stay at the forefront of event technology to enhance participant engagement. Whether it's virtual or in-person workshops, we utilize cutting-edge tools and platforms to create immersive experiences.",
-            "On-site Management: Our on-site team takes care of every detail during the workshop, ensuring that everything runs smoothly. From registration to participant assistance, we provide a seamless experience.",
-            "Post-Event Analysis: We believe in continuous improvement. After your workshop concludes, we conduct a thorough analysis to measure success and gather feedback for future enhancements."
+            {
+                "name": "Photography and Videography",
+                "details": " Our skilled photographers and videographers capture every moment of your workshop, preserving the highlights, interactions, and key takeaways. We provide high-quality visual content that can be used for marketing, documentation, and future promotions."
+            },
+            {
+                "name": "Strategic Planning",
+                "details": " We work closely with you to define the goals and objectives of your workshop. Our strategic planning ensures that every aspect of your event aligns with your vision and delivers tangible results."
+            },
+            {
+                "name": "Logistics and Venue Management",
+                "details": " From selecting the perfect venue to managing logistics, we handle all the behind-the-scenes details. Our meticulous approach ensures a smooth flow of activities and a comfortable environment for your attendees."
+            },
+            {
+                "name": "Content Development",
+                "details": " Our team collaborates with subject matter experts to craft engaging workshop content that resonates with your audience. We focus on creating interactive and informative sessions that leave a lasting impact."
+            },
+            {
+                "name": "Marketing and Promotion",
+                "details": " We leverage our marketing expertise to promote your workshop, attract the right audience, and maximize attendance. Our strategies ensure that your workshop gets the attention it deserves."
+            },
+            {
+                "name": "Technology Integration",
+                "details": " We stay at the forefront of event technology to enhance participant engagement. Whether it's virtual or in-person workshops, we utilize cutting-edge tools and platforms to create immersive experiences."
+            },
+            {
+                "name": "On-site Management",
+                "details": " Our on-site team takes care of every detail during the workshop, ensuring that everything runs smoothly. From registration to participant assistance, we provide a seamless experience."
+            },
+            {
+                "name": "Post-Event Analysis",
+                "details": " We believe in continuous improvement. After your workshop concludes, we conduct a thorough analysis to measure success and gather feedback for future enhancements."
+            }
         ],
+
+
         "venues": [
             {
                 "name": "Bangabandhu International Conference Center",
@@ -81,11 +130,7 @@
                 "name": "The Waterfront Convention Hall",
                 "address": "Hatirjheel New Entrance, Dhaka 1219"
             }
-        ],
-        "technical_support": {
-            "phone": "+1-800-123-4567",
-            "email": "support@example.com"
-        }
+        ]
     },
     {
         "id": 3,
@@ -96,18 +141,45 @@
         "short_description": "Elevate Your Educational Conferences with Our Expert Event Management Services! We specialize in creating seamless and impactful conference experiences for educational institutions. From strategic planning and logistics to engaging content and attendee experience, we've got you covered. Let us help you make your Educational Conferences a resounding success.",
         "price1": 49.99,
         "price2": 49.99,
-        "price3": "Coustiom",
+        "price3": 69.99,
         "long_description": "At our company, we understand that Educational Conferences play a pivotal role in knowledge dissemination, professional development, and networking within the education sector. Crafting a successful Educational Conference requires meticulous planning, innovative strategies, and flawless execution. That's where our expert Event Management Services come into play. Our dedicated team of event professionals is passionate about creating memorable and insightful conference experiences tailored to the unique needs of educational institutions. With years of experience in the field, we've honed our skills to provide comprehensive conference management solutions.",
         "details": [
-            "Photography and Videography: Our skilled photographers and videographers capture every moment of your workshop, preserving the highlights, interactions, and key takeaways. We provide high-quality visual content that can be used for marketing, documentation, and future promotions.",
-            "Strategic Planning:  We collaborate closely with you to define the objectives and goals of your Educational Conference. Our strategic planning ensures that every aspect of your event aligns with your educational mission and delivers tangible outcomes.",
-            "Logistics and Venue Management: From selecting the perfect venue to managing logistics, we handle all the behind-the-scenes details. Our meticulous approach ensures a smooth flow of activities and a comfortable environment for your attendees.",
-            "Content Development: Our team collaborates with subject matter experts to craft engaging workshop content that resonates with your audience. We focus on creating interactive and informative sessions that leave a lasting impact.",
-            "Marketing and Promotion: We leverage our marketing expertise to promote your Career Fair, attract top employers and job seekers, and maximize attendance. Our strategies ensure that your event receives the visibility it deserves",
-            "Technology Integration: We stay at the forefront of event technology to enhance participant engagement. Whether it's virtual or in-person workshops, we utilize cutting-edge tools and platforms to create immersive experiences.",
-            "On-site Management: Our on-site team takes care of every detail during the workshop, ensuring that everything runs smoothly. From registration to participant assistance, we provide a seamless experience.",
-            "Post-Event Analysis: We believe in continuous improvement. After your workshop concludes, we conduct a thorough analysis to measure success and gather feedback for future enhancements."
+            {
+                "name": "Photography and Videography",
+                "details": " Our skilled photographers and videographers capture every moment of your workshop, preserving the highlights, interactions, and key takeaways. We provide high-quality visual content that can be used for marketing, documentation, and future promotions."
+            },
+            {
+                "name": "Strategic Planning",
+                "details": " We work closely with you to define the goals and objectives of your workshop. Our strategic planning ensures that every aspect of your event aligns with your vision and delivers tangible results."
+            },
+            {
+                "name": "Logistics and Venue Management",
+                "details": " From selecting the perfect venue to managing logistics, we handle all the behind-the-scenes details. Our meticulous approach ensures a smooth flow of activities and a comfortable environment for your attendees."
+            },
+            {
+                "name": "Content Development",
+                "details": " Our team collaborates with subject matter experts to craft engaging workshop content that resonates with your audience. We focus on creating interactive and informative sessions that leave a lasting impact."
+            },
+            {
+                "name": "Marketing and Promotion",
+                "details": " We leverage our marketing expertise to promote your workshop, attract the right audience, and maximize attendance. Our strategies ensure that your workshop gets the attention it deserves."
+            },
+            {
+                "name": "Technology Integration",
+                "details": " We stay at the forefront of event technology to enhance participant engagement. Whether it's virtual or in-person workshops, we utilize cutting-edge tools and platforms to create immersive experiences."
+            },
+            {
+                "name": "On-site Management",
+                "details": " Our on-site team takes care of every detail during the workshop, ensuring that everything runs smoothly. From registration to participant assistance, we provide a seamless experience."
+            },
+            {
+                "name": "Post-Event Analysis",
+                "details": " We believe in continuous improvement. After your workshop concludes, we conduct a thorough analysis to measure success and gather feedback for future enhancements."
+            }
         ],
+
+
+
         "venues": [
             {
                 "name": "Bangabandhu International Conference Center",
@@ -125,11 +197,7 @@
                 "name": "The Waterfront Convention Hall",
                 "address": "Hatirjheel New Entrance, Dhaka 1219"
             }
-        ],
-        "technical_support": {
-            "phone": "+1-800-123-4567",
-            "email": "support@example.com"
-        }
+        ]
     },
     {
         "id": 4,
@@ -140,18 +208,45 @@
         "short_description": "Discover excellence in event training with our Training Programs Management Services. We specialize in crafting dynamic training sessions tailored to your event management needs. From event planning fundamentals to advanced strategic insights, our programs empower you with the skills and knowledge required to excel in the industry. Elevate your event management expertise with us.",
         "price1": 49.99,
         "price2": 49.99,
-        "price3": "Coustiom",
+        "price3": 69.99,
         "long_description": "At our company, we take pride in offering comprehensive Training Programs Management Services that are designed to equip you with the expertise needed to excel in the dynamic world of event management. Our training programs are crafted with meticulous attention to detail, providing a holistic and immersive learning experience. Whether you are a novice looking to kickstart your career or an experienced professional aiming to enhance your skills, our training programs cater to diverse skill levels and needs. Our team of seasoned event experts, trainers, and industry specialists bring a wealth of knowledge and hands-on experience to each training session. Our training curriculum covers a wide spectrum of topics, including event planning, logistics, marketing, budgeting, and crisis management. We believe in a practical, results-driven approach, ensuring that our participants gain not only theoretical knowledge but also practical insights and problem-solving abilities.",
         "details": [
-            "Photography and Videography: Our skilled photographers and videographers capture every moment of your workshop, preserving the highlights, interactions, and key takeaways. We provide high-quality visual content that can be used for marketing, documentation, and future promotions.",
-            "Strategic Planning:  We collaborate closely with you to define the objectives and goals of your Educational Conference. Our strategic planning ensures that every aspect of your event aligns with your educational mission and delivers tangible outcomes.",
-            "Logistics and Venue Management: From selecting the perfect venue to managing logistics, we handle all the behind-the-scenes details. Our meticulous approach ensures a smooth flow of activities and a comfortable environment for your attendees.",
-            "Content Development: Our team collaborates with subject matter experts to craft engaging workshop content that resonates with your audience. We focus on creating interactive and informative sessions that leave a lasting impact.",
-            "Marketing and Promotion: We leverage our marketing expertise to promote your Career Fair, attract top employers and job seekers, and maximize attendance. Our strategies ensure that your event receives the visibility it deserves",
-            "Technology Integration: We stay at the forefront of event technology to enhance participant engagement. Whether it's virtual or in-person workshops, we utilize cutting-edge tools and platforms to create immersive experiences.",
-            "On-site Management: Our on-site team takes care of every detail during the workshop, ensuring that everything runs smoothly. From registration to participant assistance, we provide a seamless experience.",
-            "Post-Event Analysis: We believe in continuous improvement. After your workshop concludes, we conduct a thorough analysis to measure success and gather feedback for future enhancements."
+            {
+                "name": "Photography and Videography",
+                "details": " Our skilled photographers and videographers capture every moment of your workshop, preserving the highlights, interactions, and key takeaways. We provide high-quality visual content that can be used for marketing, documentation, and future promotions."
+            },
+            {
+                "name": "Strategic Planning",
+                "details": " We work closely with you to define the goals and objectives of your workshop. Our strategic planning ensures that every aspect of your event aligns with your vision and delivers tangible results."
+            },
+            {
+                "name": "Logistics and Venue Management",
+                "details": " From selecting the perfect venue to managing logistics, we handle all the behind-the-scenes details. Our meticulous approach ensures a smooth flow of activities and a comfortable environment for your attendees."
+            },
+            {
+                "name": "Content Development",
+                "details": " Our team collaborates with subject matter experts to craft engaging workshop content that resonates with your audience. We focus on creating interactive and informative sessions that leave a lasting impact."
+            },
+            {
+                "name": "Marketing and Promotion",
+                "details": " We leverage our marketing expertise to promote your workshop, attract the right audience, and maximize attendance. Our strategies ensure that your workshop gets the attention it deserves."
+            },
+            {
+                "name": "Technology Integration",
+                "details": " We stay at the forefront of event technology to enhance participant engagement. Whether it's virtual or in-person workshops, we utilize cutting-edge tools and platforms to create immersive experiences."
+            },
+            {
+                "name": "On-site Management",
+                "details": " Our on-site team takes care of every detail during the workshop, ensuring that everything runs smoothly. From registration to participant assistance, we provide a seamless experience."
+            },
+            {
+                "name": "Post-Event Analysis",
+                "details": " We believe in continuous improvement. After your workshop concludes, we conduct a thorough analysis to measure success and gather feedback for future enhancements."
+            }
         ],
+
+
+
         "venues": [
             {
                 "name": "Bangabandhu International Conference Center",
@@ -169,11 +264,7 @@
                 "name": "The Waterfront Convention Hall",
                 "address": "Hatirjheel New Entrance, Dhaka 1219"
             }
-        ],
-        "technical_support": {
-            "phone": "+1-800-123-4567",
-            "email": "support@example.com"
-        }
+        ]
     },
     {
         "id": 5,
@@ -184,17 +275,41 @@
         "short_description": "Elevate Educational Technology Conferences with Our Expert Event Management Services! We specialize in creating seamless and innovative conference experiences at the intersection of education and technology. From strategic planning and logistics to engaging content and attendee engagement, we've got you covered. Let us help you make your educational technology conferences a resounding success.",
         "price1": 49.99,
         "price2": 49.99,
-        "price3": "Coustiom",
+        "price3": 69.99,
         "long_description": "At our company, we understand the profound impact that Educational Technology Conferences can have on shaping the future of education. These conferences serve as crucial platforms for educators, technologists, and innovators to come together, share insights, and explore the latest advancements in educational technology. Crafting a successful Educational Technology Conference requires meticulous planning, innovative strategies, and flawless execution. That's where our expert Event Management Services come into play. Our dedicated team of event professionals is passionate about creating memorable and forward-thinking Educational Technology Conference experiences. With years of experience in the field, we've honed our skills to provide comprehensive conference management solutions tailored to the unique needs of the education and technology sectors.",
         "details": [
-            "Photography and Videography: Our skilled photographers and videographers capture every moment of your workshop, preserving the highlights, interactions, and key takeaways. We provide high-quality visual content that can be used for marketing, documentation, and future promotions.",
-            "Strategic Planning:   We collaborate closely with you to define the objectives and goals of your Educational Technology Conference. Our strategic planning ensures that every aspect of your event aligns with your vision and delivers measurable educational and technological outcomes.",
-            "Logistics and Venue Management: From selecting the ideal venue to managing logistics, we handle all the behind-the-scenes details. Our meticulous approach guarantees a seamless flow of activities and a conducive learning environment for all attendees.",
-            "Content Development: Our team collaborates with subject matter experts to craft engaging workshop content that resonates with your audience. We focus on creating interactive and informative sessions that leave a lasting impact.",
-            "Marketing and Promotion: We leverage our marketing expertise to promote your Career Fair, attract top employers and job seekers, and maximize attendance. Our strategies ensure that your event receives the visibility it deserves",
-            "Technology Integration: We stay at the forefront of event technology to enhance participant engagement. Whether it's virtual or in-person workshops, we utilize cutting-edge tools and platforms to create immersive experiences.",
-            "On-site Management: Our on-site team takes care of every detail during the workshop, ensuring that everything runs smoothly. From registration to participant assistance, we provide a seamless experience.",
-            "Post-Event Analysis: We believe in continuous improvement. After your workshop concludes, we conduct a thorough analysis to measure success and gather feedback for future enhancements."
+            {
+                "name": "Photography and Videography",
+                "details": " Our skilled photographers and videographers capture every moment of your workshop, preserving the highlights, interactions, and key takeaways. We provide high-quality visual content that can be used for marketing, documentation, and future promotions."
+            },
+            {
+                "name": "Strategic Planning",
+                "details": " We work closely with you to define the goals and objectives of your workshop. Our strategic planning ensures that every aspect of your event aligns with your vision and delivers tangible results."
+            },
+            {
+                "name": "Logistics and Venue Management",
+                "details": " From selecting the perfect venue to managing logistics, we handle all the behind-the-scenes details. Our meticulous approach ensures a smooth flow of activities and a comfortable environment for your attendees."
+            },
+            {
+                "name": "Content Development",
+                "details": " Our team collaborates with subject matter experts to craft engaging workshop content that resonates with your audience. We focus on creating interactive and informative sessions that leave a lasting impact."
+            },
+            {
+                "name": "Marketing and Promotion",
+                "details": " We leverage our marketing expertise to promote your workshop, attract the right audience, and maximize attendance. Our strategies ensure that your workshop gets the attention it deserves."
+            },
+            {
+                "name": "Technology Integration",
+                "details": " We stay at the forefront of event technology to enhance participant engagement. Whether it's virtual or in-person workshops, we utilize cutting-edge tools and platforms to create immersive experiences."
+            },
+            {
+                "name": "On-site Management",
+                "details": " Our on-site team takes care of every detail during the workshop, ensuring that everything runs smoothly. From registration to participant assistance, we provide a seamless experience."
+            },
+            {
+                "name": "Post-Event Analysis",
+                "details": " We believe in continuous improvement. After your workshop concludes, we conduct a thorough analysis to measure success and gather feedback for future enhancements."
+            }
         ],
         "venues": [
             {
@@ -213,14 +328,10 @@
                 "name": "The Waterfront Convention Hall",
                 "address": "Hatirjheel New Entrance, Dhaka 1219"
             }
-        ],
-        "technical_support": {
-            "phone": "+1-800-123-4567",
-            "email": "support@example.com"
-        }
+        ]
     },
     {
-        "id": 5,
+        "id": 6,
         "title": "Professional Development Conferences",
         "img": "https://i.ibb.co/59wckr0/professional-development.jpg",
         "img1": "https://i.ibb.co/VtF7V8f/professional-development1.jpg",
@@ -228,18 +339,48 @@
         "short_description": "Elevate Your Professional Development Conferences with Our Expert Event Management Services! We specialize in creating seamless and impactful conferences tailored for your organization's growth. From strategic planning and logistics to engaging content and attendee experience, we've got you covered. Let us help you make your Professional Development Conferences a resounding success.",
         "price1": 49.99,
         "price2": 49.99,
-        "price3": "Coustiom",
+        "price3": 69.99,
         "long_description": "At our company, we recognize the vital role that Professional Development Conferences play in nurturing talent, fostering growth, and advancing industries. Crafting a successful Professional Development Conference requires meticulous planning, innovative strategies, and flawless execution. That's where our expert Event Management Services come into play. Our dedicated team of event professionals is passionate about creating memorable and transformative Professional Development Conference experiences. With years of experience in the field, we've honed our skills to provide comprehensive conference management solutions tailored to your organization's unique needs.",
         "details": [
-            "Photography and Videography: Our skilled photographers and videographers capture every moment of your workshop, preserving the highlights, interactions, and key takeaways. We provide high-quality visual content that can be used for marketing, documentation, and future promotions.",
-            "Strategic Planning:   We collaborate closely with you to define the objectives and goals of your Educational Technology Conference. Our strategic planning ensures that every aspect of your event aligns with your vision and delivers measurable educational and technological outcomes.",
-            "Logistics and Venue Management: From selecting the ideal venue to managing logistics, we handle all the behind-the-scenes details. Our meticulous approach guarantees a seamless flow of activities and a conducive learning environment for all attendees.",
-            "Content Development: Our team collaborates with subject matter experts to craft engaging workshop content that resonates with your audience. We focus on creating interactive and informative sessions that leave a lasting impact.",
-            "Marketing and Promotion: We leverage our marketing expertise to promote your Career Fair, attract top employers and job seekers, and maximize attendance. Our strategies ensure that your event receives the visibility it deserves",
-            "Technology Integration: We stay at the forefront of event technology to enhance participant engagement. Whether it's virtual or in-person workshops, we utilize cutting-edge tools and platforms to create immersive experiences.",
-            "On-site Management: Our on-site team takes care of every detail during the workshop, ensuring that everything runs smoothly. From registration to participant assistance, we provide a seamless experience.",
-            "Post-Event Analysis: We believe in continuous improvement. After your workshop concludes, we conduct a thorough analysis to measure success and gather feedback for future enhancements."
+            {
+                "name": "Photography and Videography",
+                "details": " Our skilled photographers and videographers capture every moment of your workshop, preserving the highlights, interactions, and key takeaways. We provide high-quality visual content that can be used for marketing, documentation, and future promotions."
+            },
+            {
+                "name": "Strategic Planning",
+                "details": " We work closely with you to define the goals and objectives of your workshop. Our strategic planning ensures that every aspect of your event aligns with your vision and delivers tangible results."
+            },
+            {
+                "name": "Logistics and Venue Management",
+                "details": " From selecting the perfect venue to managing logistics, we handle all the behind-the-scenes details. Our meticulous approach ensures a smooth flow of activities and a comfortable environment for your attendees."
+            },
+            {
+                "name": "Content Development",
+                "details": " Our team collaborates with subject matter experts to craft engaging workshop content that resonates with your audience. We focus on creating interactive and informative sessions that leave a lasting impact."
+            },
+            {
+                "name": "Marketing and Promotion",
+                "details": " We leverage our marketing expertise to promote your workshop, attract the right audience, and maximize attendance. Our strategies ensure that your workshop gets the attention it deserves."
+            },
+            {
+                "name": "Technology Integration",
+                "details": " We stay at the forefront of event technology to enhance participant engagement. Whether it's virtual or in-person workshops, we utilize cutting-edge tools and platforms to create immersive experiences."
+            },
+            {
+                "name": "On-site Management",
+                "details": " Our on-site team takes care of every detail during the workshop, ensuring that everything runs smoothly. From registration to participant assistance, we provide a seamless experience."
+            },
+            {
+                "name": "Post-Event Analysis",
+                "details": " We believe in continuous improvement. After your workshop concludes, we conduct a thorough analysis to measure success and gather feedback for future enhancements."
+            }
         ],
+
+
+
+
+
+
         "venues": [
             {
                 "name": "Bangabandhu International Conference Center",
@@ -257,10 +398,6 @@
                 "name": "The Waterfront Convention Hall",
                 "address": "Hatirjheel New Entrance, Dhaka 1219"
             }
-        ],
-        "technical_support": {
-            "phone": "+1-800-123-4567",
-            "email": "support@example.com"
-        }
+        ]
     }
 ]

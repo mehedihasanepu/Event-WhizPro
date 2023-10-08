@@ -39,16 +39,17 @@ const Register = () => {
                                 </div>
                                 <div className="form-control">
                                     <label className="label">
+                                        <span className="label-text">Image URL</span>
+                                    </label>
+                                    <input type="text" placeholder="upload img URl" className="input input-bordered" />
+                                </div>
+                                <div className="form-control">
+                                    <label className="label">
                                         <span className="label-text">Email Address</span>
                                     </label>
                                     <input type="email" placeholder="email@example.com" className="input input-bordered" required />
                                 </div>
-                                <div className="form-control">
-                                    <label className="label">
-                                        <span className="label-text">Image URL</span>
-                                    </label>
-                                    <input type="text" placeholder="upload img URl" className="input input-bordered"  />
-                                </div>
+
                                 <div className="form-control">
                                     <label className="label">
                                         <span className="label-text">Password</span>

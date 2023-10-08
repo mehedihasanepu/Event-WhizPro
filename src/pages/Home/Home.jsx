@@ -6,7 +6,6 @@ import WhyChooseUs from "./WhyChooseUs/WhyChooseUs";
 const Home = () => {
     return (
         <div>
-            <Navbar></Navbar>
             <Header></Header>
             <WhyChooseUs></WhyChooseUs>
             <Services></Services>

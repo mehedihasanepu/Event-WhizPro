@@ -18,7 +18,7 @@ const Navbar = () => {
     </>
     return (
         <div className="max-w-screen-xl mx-auto" >
-            <div className={`flex flex-row items-center md:px-5 justify-between gap-40 md:gap-[450px] lg:gap-96  py-2 md:py-4 px-2 lg:pl-10 bg-[#93502c] lg:rounded-b-2xl ${navbarClass} lg:absolute lg:z-20`}>
+            <div className={`flex flex-row items-center md:px-5 justify-between gap-40 md:gap-[450px] lg:gap-96  py-2 md:py-4 px-2 lg:pl-10 ml-0 lg:ml-10 bg-[#93502c] lg:rounded-b-2xl ${navbarClass} lg:absolute lg:z-20`}>
 
                 <div>
                     <img className="w-60 lg:w-80" src={logo} alt="" />

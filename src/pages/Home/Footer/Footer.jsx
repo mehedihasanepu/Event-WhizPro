@@ -5,11 +5,11 @@ import { BiSolidPhoneCall } from "react-icons/bi";
 const Footer = () => {
     return (
         <div>
-            <footer className="footer justify-center md:gap-6 lg:gap-28 items-center text-center md:text-start p-10 py-24 bg-base-200 text-base-content mt-10">
+            <footer className="footer justify-center md:gap-6 lg:gap-28 items-center text-center md:text-start p-10 py-24 bg-base-200 text-base-content ">
                 <div>
                     <aside>
                         <img className="w-64 md:w-96 lg:w-96 pb-3" src={logo} alt="" />
-                        <p className="text-base lg:text-lg">Event WhizPro<br />Providing Events Management Service</p>
+                        <p className="text-base lg:text-lg">Event WhizPro<br />Providing Educational and Training Events Management Service</p>
                     </aside>
                 </div>
                 <nav >

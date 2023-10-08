@@ -18,10 +18,10 @@ const Header = () => {
 
     const settings = {
         modules: [Navigation, Autoplay],
-        // autoplay: {
-        //     delay: 5000,
-        //     disableOnInteraction: false
-        // }
+        autoplay: {
+            delay: 5000,
+            disableOnInteraction: false
+        }
     };
     return (
         <div className="relative"  >
@@ -35,7 +35,7 @@ const Header = () => {
                                 <h2 className="text-3xl md:text-5xl lg:text-6xl font-semibold "  data-aos="fade-right">One Stop</h2>
                                 <h1 className="text-4xl md:text-7xl lg:text-8xl font-bold mt-3" data-aos="fade-left">Event Planner</h1>
                                 <p className="tracking-widest" data-aos="fade-left">
-                                    Every Event Should Be Perfect
+                                    Every Educational and Training Events Should Be Perfect
                                 </p>
                             </div>
                         </div>
@@ -49,7 +49,7 @@ const Header = () => {
                                 <h2 className="text-3xl md:text-5xl lg:text-6xl font-semibold">One Stop</h2>
                                 <h1 className="text-4xl md:text-7xl lg:text-8xl font-bold mt-3">Event Planner</h1>
                                 <p className="tracking-widest">
-                                    Every Event Should Be Perfect
+                                    Every Educational and Training Events Should Be Perfect
                                 </p>
                             </div>
                         </div>
@@ -63,7 +63,7 @@ const Header = () => {
                                 <h2 className="text-3xl md:text-5xl lg:text-6xl font-semibold">One Stop</h2>
                                 <h1 className="text-4xl md:text-7xl lg:text-8xl font-bold mt-3">Event Planner</h1>
                                 <p className="tracking-widest">
-                                    Every Event Should Be Perfect
+                                    Every Educational and Training Events Should Be Perfect
                                 </p>
                             </div>
                         </div>
@@ -77,7 +77,7 @@ const Header = () => {
                                 <h2 className="text-3xl md:text-5xl lg:text-6xl font-semibold">One Stop</h2>
                                 <h1 className="text-4xl md:text-7xl lg:text-8xl font-bold mt-3">Event Planner</h1>
                                 <p className="tracking-widest">
-                                    Every Event Should Be Perfect
+                                    Every Educational and Training Events Should Be Perfect
                                 </p>
                             </div>
                         </div>
@@ -91,7 +91,7 @@ const Header = () => {
                                 <h2 className="text-3xl md:text-5xl lg:text-6xl font-semibold">One Stop</h2>
                                 <h1 className="text-4xl md:text-7xl lg:text-8xl font-bold mt-3">Event Planner</h1>
                                 <p className="tracking-widest">
-                                    Every Event Should Be Perfect
+                                    Every Educational and Training Events Should Be Perfect
                                 </p>
                             </div>
                         </div>
@@ -105,7 +105,7 @@ const Header = () => {
                                 <h2 className="text-3xl md:text-5xl lg:text-6xl font-semibold"  data-aos="fade-up-right">One Stop</h2>
                                 <h1 className="text-4xl md:text-7xl lg:text-8xl font-bold mt-3">Event Planner</h1>
                                 <p className="tracking-widest">
-                                    Every Event Should Be Perfect
+                                    Every Educational and Training Events Should Be Perfect
                                 </p>
                             </div>
                         </div>

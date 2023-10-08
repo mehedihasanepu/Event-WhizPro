@@ -1,10 +1,7 @@
-import Navbar from "../Home/Navbar/Navbar";
-import singUp from "../../../src/assets/images/Signup.gif"
 import singIn from "../../../src/assets/images/Signin.gif"
 import google from "../../../src/assets/images/icon/google.png"
 import github from "../../../src/assets/images/icon/github.png"
 import { Link } from "react-router-dom";
-import Footer from "../Home/Footer/Footer";
 const Login = () => {
 
 
