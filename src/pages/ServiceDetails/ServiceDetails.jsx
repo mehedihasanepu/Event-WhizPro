@@ -8,6 +8,7 @@ import { BsStars } from "react-icons/bs";
 import venue_img from "../../../src/assets/images/venue.jpg"
 
 import { EffectCoverflow, Pagination } from 'swiper/modules';
+import { useEffect } from "react";
 
 
 
@@ -38,8 +39,9 @@ const ServiceDetails = () => {
         minHeight: '500px',
     };
 
-
-
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
 
 
     return (
@@ -154,7 +156,7 @@ const ServiceDetails = () => {
                                 <p className="flex gap-2 items-center"> <FaCheckCircle className="text-green-600"></FaCheckCircle> Photography and Videography</p>
                                 <p className="flex gap-2 "> <FaCheckCircle className="text-green-600"></FaCheckCircle> Venue and logistics management</p>
                                 <p className="flex gap-2"> <FaCheckCircle className="text-green-600 "></FaCheckCircle> Venue Seating capacity: 600 seats</p>
-                                <p className="flex gap-2"> <FaCheckCircle className="text-green-600 md:text-base text-2xl"></FaCheckCircle> Basic on-site support for smooth event execution</p>
+                                <p className="flex gap-2"> <FaCheckCircle className="text-green-600 text-xl md:text-base lg:text-2xl"></FaCheckCircle> Basic on-site support for smooth event execution</p>
                             </div>
                         </div>
 
@@ -167,10 +169,10 @@ const ServiceDetails = () => {
                             <h1 className="text-5xl font-extrabold text-[#ff4c05] text-center pb-3">{price2}</h1>
                             <div className="space-y-2 text-base">
                                 <p className="flex gap-2 items-center"> <FaCheckCircle className="text-green-600 " ></FaCheckCircle> Photography and Videography</p>
-                                <p className="flex gap-2 "> <FaCheckCircle className="text-green-600 md:text-base text-xl " ></FaCheckCircle> Comprehensive venue selection and logistics management.</p>
+                                <p className="flex gap-2 "> <FaCheckCircle className="text-green-600 text-xl md:text-base lg:text-xl " ></FaCheckCircle> Comprehensive venue selection and logistics management.</p>
                                 <p className="flex gap-2 "> <FaCheckCircle className="text-green-600   "></FaCheckCircle> Venue Seating capacity: 600 seats</p>
-                                <p className="flex gap-2 "> <FaCheckCircle className="text-green-600 md:text-base text-2xl"></FaCheckCircle> Detailed on-site support, including registration and participant assistance</p>
-                                <p className="flex gap-2 "> <FaCheckCircle className="text-green-600 md:text-base text-lg"></FaCheckCircle> Highly interactive and informative workshop content.</p>
+                                <p className="flex gap-2 "> <FaCheckCircle className="text-green-600 text-2xl md:text-base lg:text-2xl"></FaCheckCircle> Detailed on-site support, including registration and participant assistance</p>
+                                <p className="flex gap-2 "> <FaCheckCircle className="text-green-600 text-lg md:text-base lg:text-lg"></FaCheckCircle> Highly interactive and informative workshop content.</p>
                             </div>
                         </div>
 
@@ -182,9 +184,9 @@ const ServiceDetails = () => {
                             <h1 className="text-5xl font-extrabold text-[#ff4c05] text-center pb-3">{price3}</h1>
                             <div className="space-y-2" >
                                 <p className="flex gap-2 items-center"> <FaCheckCircle className="text-green-600"></FaCheckCircle> Photography and Videography</p>
-                                <p className="flex gap-2 "> <FaCheckCircle className="text-green-600 md:text-base text-xl"></FaCheckCircle> Full-scale venue selection and logistics management.</p>
-                                <p className="flex gap-2"> <FaCheckCircle className="text-green-600 md:text-base text-lg"></FaCheckCircle> Venue Seating capacity: 1000 seats or more.</p>
-                                <p className="flex gap-2"> <FaCheckCircle className="text-green-600 md:text-base text-3xl"></FaCheckCircle> Detailed on-site support, including registration and participant assistance.</p>
+                                <p className="flex gap-2 "> <FaCheckCircle className="text-green-600 text-xl md:text-base lg:text-xl"></FaCheckCircle> Full-scale venue selection and logistics management.</p>
+                                <p className="flex gap-2"> <FaCheckCircle className="text-green-600 text-lg md:text-base lg:text-lg"></FaCheckCircle> Venue Seating capacity: 1000 seats or more.</p>
+                                <p className="flex gap-2"> <FaCheckCircle className="text-green-600 text-3xl md:text-base lg:text-3xl"></FaCheckCircle> Detailed on-site support, including registration and participant assistance.</p>
                             </div>
                         </div>
 

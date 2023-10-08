@@ -5,6 +5,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Navbar from "../pages/Home/Navbar/Navbar";
 import Footer from "../pages/Home/Footer/Footer";
+import { Toaster } from "react-hot-toast";
 
 
 
@@ -22,6 +23,10 @@ const Root = () => {
             <Navbar></Navbar>
             <Outlet></Outlet>
             <Footer></Footer>
+            <Toaster
+                position="top-center"
+                reverseOrder={false}
+            />
         </div>
     );
 };
