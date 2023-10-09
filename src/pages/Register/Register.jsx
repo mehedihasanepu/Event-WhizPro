@@ -49,11 +49,12 @@ const Register = () => {
         // Create User 
         createUser(email, password)
             .then(result => {
-                navigate("/")
                 updateProfile(result.user, {
                     displayName: name,
                     photoURL: PhotoURL
                 })
+                navigate("/")
+                window.location.reload();
                 toast.success('Sing Up SuccessFull')
             })
             .catch(error => {

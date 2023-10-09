@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import Header from "./Header/Header";
 import Services from "./Services/Services";
 import WhyChooseUs from "./WhyChooseUs/WhyChooseUs";
+import Gallery from "./Gallery/Gallery";
 
 const Home = () => {
     useEffect(() => {
@@ -12,6 +13,7 @@ const Home = () => {
             <Header></Header>
             <WhyChooseUs></WhyChooseUs>
             <Services></Services>
+            <Gallery></Gallery>
         </div>
     );
 };
