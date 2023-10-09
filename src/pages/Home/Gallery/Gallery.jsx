@@ -21,9 +21,10 @@ const Gallery = () => {
         <div style={backgroundStyle} >
             <h2 className=" text-4xl lg:text-5xl text-center font-semibold pt-20 pb-10">Gallery</h2>
 
-            <div className=" max-w-screen-xl mx-auto ">
+            <div className=" max-w-screen-xl mx-auto " >
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 ">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4" data-aos="fade-up"
+                    data-aos-anchor-placement="top-bottom">
 
                     <div className="col-span-2 relative group">
                         <img

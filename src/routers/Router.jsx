@@ -10,12 +10,14 @@ import PrivateRoute from "./privateRoute";
 import Booking from "../pages/Booking/Booking";
 import BookingPageCardDetails from "../componene/BookingPageCardDetails/BookingPageCardDetails";
 import Blog from "../pages/Blog/Blog";
+import ErrorPage from "../pages/ErrorPage/ErrorPage";
 
 
 const router = createBrowserRouter([
     {
         path: "/",
         element: <Root></Root>,
+        errorElement:<ErrorPage></ErrorPage>,
         children: [
             {
                 path: "/",
@@ -36,7 +38,7 @@ const router = createBrowserRouter([
             },
             {
                 path:"/booking",
-                element:<Booking></Booking>,
+                element:<PrivateRoute><Booking></Booking></PrivateRoute>,
                 loader:()=> fetch("/data.json")
             },
             {

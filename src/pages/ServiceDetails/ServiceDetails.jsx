@@ -80,12 +80,14 @@ const ServiceDetails = () => {
                         </Swiper>
                     </div>
 
-                    <div className="bg-[#fff7ee] p-20 rounded-2xl" >
+                    <div className="bg-[#fff7ee] p-20 rounded-2xl"  >
                         <h2 className="text-4xl font-bold text-[#ff4c05]">{title}</h2>
                         <hr />
-                        <p className="pt-5 text-lg">{short_description}</p>
+                        <p className="pt-5 text-lg" data-aos="fade-up"
+                            data-aos-anchor-placement="top-bottom">{short_description}</p>
                         <br />
-                        <p>{long_description}</p>
+                        <p data-aos="fade-up"
+                            data-aos-anchor-placement="top-bottom">{long_description}</p>
 
                     </div>
                 </div>
@@ -107,7 +109,8 @@ const ServiceDetails = () => {
                         <hr />
                     </div>
 
-                    <div className="max-w-screen-lg mx-auto">
+                    <div className="max-w-screen-lg mx-auto" data-aos="fade-up"
+                        data-aos-anchor-placement="top-bottom">
                         {
                             details.map((item, index) => <div key={index} >
 
@@ -145,7 +148,7 @@ const ServiceDetails = () => {
 
 
 
-                    <div className="flex flex-col lg:flex-row " >
+                    <div className="flex flex-col lg:flex-row " data-aos="fade-right" >
 
 
 
@@ -164,7 +167,8 @@ const ServiceDetails = () => {
 
 
 
-                        <div className="bg-[#ffeacf] p-16 rounded-2xl lg:rounded-none  ">
+                        <div className="bg-[#ffeacf] p-16 rounded-2xl lg:rounded-none " data-aos="fade-up"
+                            data-aos-anchor-placement="top-bottom">
                             <h3 className="text-3xl py-2 font-bold text-center">Standard</h3>
                             <h1 className="text-5xl font-extrabold text-[#ff4c05] text-center pb-3">{price2}</h1>
                             <div className="space-y-2 text-base">
@@ -179,7 +183,7 @@ const ServiceDetails = () => {
 
 
 
-                        <div className="bg-[#fff7ee] p-16 w-auto lg:w-[600px] rounded-2xl my-2 lg:my-10 ">
+                        <div className="bg-[#fff7ee] p-16 w-auto lg:w-[600px] rounded-2xl my-2 lg:my-10 " data-aos="fade-left">
                             <h3 className="text-3xl py-2 font-bold text-center">Premium</h3>
                             <h1 className="text-5xl font-extrabold text-[#ff4c05] text-center pb-3">{price3}</h1>
                             <div className="space-y-2" >
@@ -203,13 +207,13 @@ const ServiceDetails = () => {
                     <div className="flex flex-col-reverse lg:flex-row justify-between items-center mt-5 ">
 
 
-                        <div className="bg-[#fff7ee] p-10 rounded-xl">
+                        <div className="bg-[#fff7ee] p-10 rounded-xl" >
 
                             {
                                 venues.map((item, index) => <div key={index} >
 
                                     <div className="p-3">
-                                        <div className="flex ">
+                                        <div className="flex" data-aos="fade-right">
                                             <div>
                                                 <BsStars className="text-[#ff8f3a] text-xl"></BsStars>
                                             </div>
@@ -217,7 +221,7 @@ const ServiceDetails = () => {
                                                 <p className="text-lg font-semibold">{item.name}</p>
                                             </div>
                                         </div>
-                                        <div>
+                                        <div data-aos="fade-right">
                                             <p>Address: {item.address}</p>
                                         </div>
                                     </div>

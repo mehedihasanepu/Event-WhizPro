@@ -20,6 +20,14 @@ const Booking = () => {
         backgroundRepeat: 'no-repeat',
         minHeight: '500px',
     };
+
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+
+
+
     return (
         <div className="pt-16 md:pt-20 lg:pt-24">
             <BookingPageBanner></BookingPageBanner>

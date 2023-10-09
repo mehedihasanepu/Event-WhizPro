@@ -23,7 +23,9 @@ const Blog = () => {
         backgroundRepeat: 'no-repeat',
         minHeight: '500px',
     };
-
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
 
     return (
         <div className="pt-16 md:pt-20 lg:pt-24">
@@ -36,7 +38,7 @@ const Blog = () => {
                         <div className=" md:col-span-2 lg:col-span-8">
 
                             <div className=" max-w-screen-lg px-5 space-y-5 lg:space-y-10 mx-auto mt-10 gap-10">
-                            <h2 className="text-4xl py-5 lg:py-0 font-bold text-[#ff4c05]">All Blogs</h2>
+                                <h2 className="text-4xl py-5 lg:py-0 font-bold text-[#ff4c05]">All Blogs</h2>
                                 {
                                     data.map(data => <LeftSideBlog key={data.id} data={data}></LeftSideBlog>)
                                 }
@@ -51,7 +53,7 @@ const Blog = () => {
                             <div className="col-span-3">
 
                                 <div className=" max-w-screen-lg px-5 space-y-3 mx-auto mt-10 gap-10">
-                                <h2 className="text-2xl py-5 lg:py-0 font-bold text-[#ff4c05]">Recent Blogs</h2>
+                                    <h2 className="text-2xl py-5 lg:py-0 font-bold text-[#ff4c05]">Recent Blogs</h2>
                                     {
                                         data.slice(4, 10).map(data => <RightSideBlog key={data.id} data={data}></RightSideBlog>)
                                     }

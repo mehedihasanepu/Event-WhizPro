@@ -12,7 +12,8 @@ const BookingPageCard = ({ data }) => {
 
 
             <div>
-                <div className="card lg:card-side bg-base-100 shadow-xl">
+                <div className="card lg:card-side bg-base-100 shadow-xl" data-aos="fade-up"
+                    data-aos-anchor-placement="top-bottom">
                     <figure className=""><img className="h-[50vh] w-[200vh] rounded-t-2xl " src={img} alt="car!" /></figure>
                     <div className="card-body">
                         <h2 className="card-title">{title}</h2>

@@ -34,6 +34,8 @@ const Navbar = () => {
 
     const navLink = <>
         <NavLink className="text-xl font-semibold text-white p-2 px-4 rounded-lg lg:mr-10" to="/">Home</NavLink>
+        <NavLink className="text-xl font-semibold text-white p-2 px-4 rounded-lg lg:mr-10" to="/booking">Booking</NavLink>
+        <NavLink className="text-xl font-semibold text-white p-2 px-4 rounded-lg lg:mr-10" to="/blog">Blog</NavLink>
         {
             user ?
                 <button onClick={handleSingOut} className="lg:hidden text-xl font-semibold text-white p-2 px-4 rounded-lg lg:mr-10">Sing out</button>
@@ -44,8 +46,6 @@ const Navbar = () => {
                     <NavLink className=" lg:hidden text-xl font-semibold text-white p-2 px-4 rounded-lg lg:mr-10" to="/register">Register</NavLink>
                 </>
         }
-        <NavLink className="text-xl font-semibold text-white p-2 px-4 rounded-lg lg:mr-10" to="/booking">Booking</NavLink>
-        <NavLink className="text-xl font-semibold text-white p-2 px-4 rounded-lg lg:mr-10" to="/blog">Blog</NavLink>
 
 
 
@@ -63,7 +63,8 @@ const Navbar = () => {
                 <div>
                     <img className="w-60 lg:w-80" src={logo} alt="" />
                 </div>
-                <div className="lg:hidden ">
+                <div className="lg:hidden flex">
+                <UserProfile></UserProfile>
                     <div className=" dropdown flex-row-reverse">
                         <label tabIndex={0} className=" btn px-2 md:px-4 ">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>

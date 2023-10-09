@@ -134,7 +134,7 @@ const BookingPageCardDetails = () => {
                                     venues.map((item, index) => <div key={index} >
 
                                         <div className="p-3">
-                                            <div className="flex ">
+                                            <div className="flex " data-aos="fade-left">
                                                 <div>
                                                     <BsStars className="text-[#ff8f3a] text-xl"></BsStars>
                                                 </div>
@@ -142,7 +142,7 @@ const BookingPageCardDetails = () => {
                                                     <p className="text-lg font-semibold">{item.name}</p>
                                                 </div>
                                             </div>
-                                            <div>
+                                            <div data-aos="fade-left">
                                                 <p>Address: {item.address}</p>
                                             </div>
                                         </div>
@@ -183,7 +183,8 @@ const BookingPageCardDetails = () => {
                             <hr />
                         </div>
 
-                        <div className="max-w-screen-lg mx-auto">
+                        <div className="max-w-screen-lg mx-auto" data-aos="fade-up"
+                            data-aos-anchor-placement="top-bottom">
                             {
                                 details.map((item, index) => <div key={index} >
 

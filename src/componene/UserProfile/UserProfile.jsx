@@ -1,6 +1,5 @@
 import { useContext } from "react";
 import { AuthContext } from "../../provider/AuthProvider";
-import bannerImg4 from "../../assets/images/icon/friend.png";
 
 const UserProfile = () => {
 
