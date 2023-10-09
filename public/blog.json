@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "title": "Empowering the Next Generation of Leaders",
+        "description": "Join us for an interactive workshop on leadership skills and personal development.Let us help you make your educational technology conferences a resounding success",
+        "img": "https://i.ibb.co/F4RM7q8/workshops.jpg",
+        "author": "John Smith",
+        "publish_date": "2023-04-15"
+    },
+    {
+        "id": 2,
+        "title": "Navigating Career Choices in the Digital Age",
+        "description": "Explore the latest career trends and opportunities in the digital world.Let us help you make your educational technology conferences a resounding success",
+        "img": "https://i.ibb.co/jLZZsR6/workshops1.jpg",
+        "author": "Emily Davis",
+        "publish_date": "2023-05-10"
+    },
+    {
+        "id": 3,
+        "title": "Educational Innovations Conference",
+        "description": "Discover innovative approaches to education at our annual conference.Let us help you make your educational technology conferences a resounding success",
+        "img": "https://i.ibb.co/pdDTRQq/career-fairs1.jpg",
+        "author": "Sarah Johnson",
+        "publish_date": "2023-06-20"
+    },
+    {
+        "id": 4,
+        "title": "Effective Teaching Strategies Workshop",
+        "description": "Learn proven teaching techniques to enhance student engagement and learning.Let us help you make your educational technology conferences a resounding success",
+        "img": "https://i.ibb.co/HhvhL83/career-fairs.png",
+        "author": "Michael Brown",
+        "publish_date": "2023-07-12"
+    },
+    {
+        "id": 5,
+        "title": "EdTech Summit 2023",
+        "description": "Stay updated on the latest educational technology trends and innovations.Let us help you make your educational technology conferences a resounding success",
+        "img": "https://i.ibb.co/x1F2XCw/educational-conferences1.jpg",
+        "author": "Lisa Williams",
+        "publish_date": "2023-08-25"
+    },
+    {
+        "id": 6,
+        "title": "Professional Development Series",
+        "description": "Join our series of workshops designed to boost your professional skills.Let us help you make your educational technology conferences a resounding success",
+        "img": "https://i.ibb.co/MSJfKZN/educational-conferences2.jpg",
+        "author": "David Clark",
+        "publish_date": "2023-09-05"
+    },
+    {
+        "id": 7,
+        "title": "Advancements in Educational Technology",
+        "description": "Explore cutting-edge technologies shaping the future of education.Let us help you make your educational technology conferences a resounding success",
+        "img": "https://i.ibb.co/5x9MWN8/training-programs1.webp",
+        "author": "Sophia Anderson",
+        "publish_date": "2023-10-18"
+    },
+    {
+        "id": 8,
+        "title": "Career Fair for Graduates",
+        "description": "Connect with top employers and kickstart your career at our fair.Let us help you make your educational technology conferences a resounding success",
+        "img": "https://i.ibb.co/F4mb04y/training-programs2.jpg",
+        "author": "Mark Johnson",
+        "publish_date": "2023-11-08"
+    },
+    {
+        "id": 9,
+        "title": "Teaching Excellence Conference",
+        "description": "Exchange ideas and strategies for achieving teaching excellence.Let us help you make your educational technology conferences a resounding success",
+        "img": "https://i.ibb.co/hyFw0Rb/educational-technology1.webp",
+        "author": "Elena Rodriguez",
+        "publish_date": "2023-12-01"
+    },
+    {
+        "id": 10,
+        "title": "Leadership Development Program",
+        "description": "Join our program to nurture leadership skills in education.Let us help you make your educational technology conferences a resounding success",
+        "img": "https://i.ibb.co/dftrbmk/educational-technology2.jpg",
+        "author": "Robert Smith",
+        "publish_date": "2024-01-15"
+    }
+]

@@ -9,6 +9,7 @@ import ServiceDetails from "../pages/ServiceDetails/ServiceDetails";
 import PrivateRoute from "./privateRoute";
 import Booking from "../pages/Booking/Booking";
 import BookingPageCardDetails from "../componene/BookingPageCardDetails/BookingPageCardDetails";
+import Blog from "../pages/Blog/Blog";
 
 
 const router = createBrowserRouter([
@@ -42,7 +43,11 @@ const router = createBrowserRouter([
                 path:"/bookingItemDetails/:id",
                 element:<PrivateRoute><BookingPageCardDetails></BookingPageCardDetails></PrivateRoute>,
                 loader:()=> fetch("/data.json")
-            },
+        },
+        {
+            path:"/blog",
+            element:<PrivateRoute><Blog></Blog></PrivateRoute>
+        }
         ]
     },
 ]);

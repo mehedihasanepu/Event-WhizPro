@@ -39,12 +39,13 @@ const Navbar = () => {
                 <button onClick={handleSingOut} className="lg:hidden text-xl font-semibold text-white p-2 px-4 rounded-lg lg:mr-10">Sing out</button>
                 :
                 <>
-                    <NavLink className="text-xl font-semibold text-white p-2 px-4 rounded-lg lg:mr-10" to="/login">Login</NavLink>
+                    <NavLink className="lg:hidden text-xl font-semibold text-white p-2 px-4 rounded-lg lg:mr-10" to="/login">Login</NavLink>
 
                     <NavLink className=" lg:hidden text-xl font-semibold text-white p-2 px-4 rounded-lg lg:mr-10" to="/register">Register</NavLink>
                 </>
         }
         <NavLink className="text-xl font-semibold text-white p-2 px-4 rounded-lg lg:mr-10" to="/booking">Booking</NavLink>
+        <NavLink className="text-xl font-semibold text-white p-2 px-4 rounded-lg lg:mr-10" to="/blog">Blog</NavLink>
 
 
 
