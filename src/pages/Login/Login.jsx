@@ -4,7 +4,7 @@ import singInImg from "../../../src/assets/images/signin.gif"
 import google from "../../../src/assets/images/icon/google.png"
 import github from "../../../src/assets/images/icon/github.png"
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import { useContext, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { AuthContext } from "../../provider/AuthProvider";
 import toast from "react-hot-toast";
 const Login = () => {
@@ -18,7 +18,7 @@ const Login = () => {
         minHeight: '500px',
     };
 
-    const { singIn,googleSingIn } = useContext(AuthContext);
+    const { singIn, googleSingIn } = useContext(AuthContext);
     const location = useLocation();
 
     const navigate = useNavigate()
@@ -51,16 +51,19 @@ const Login = () => {
     const handleGoogleSingIn = () => {
 
         googleSingIn()
-        .then(result => {
-            console.log(result.user);
-            navigate(location?.state ? location.state : "/")
-            toast.success('Sing in SuccessFull')
-        })
+            .then(result => {
+                console.log(result.user);
+                navigate(location?.state ? location.state : "/")
+                toast.success('Sing in SuccessFull')
+            })
             .catch(error => {
                 console.error(error);
             })
     }
 
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
 
     return (
         <div style={backgroundStyle} className="h-full">

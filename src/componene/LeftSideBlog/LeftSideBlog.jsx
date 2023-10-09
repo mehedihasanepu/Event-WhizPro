@@ -1,9 +1,9 @@
-import { Link } from "react-router-dom";
+/* eslint-disable react/prop-types */
 
 const LeftSideBlog = ({ data }) => {
 
 
-    const { id, title, img, description, author, publish_date } = data
+    const {  title, img, description, author, publish_date } = data
 
     return (
         <div>

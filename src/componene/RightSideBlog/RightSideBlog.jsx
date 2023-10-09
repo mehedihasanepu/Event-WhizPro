@@ -1,6 +1,7 @@
+/* eslint-disable react/prop-types */
 
 const RightSideBlog = ({ data }) => {
-    const { id, title, img, description, author, publish_date } = data
+    const { title, img, description,  } = data
     
     return (
         <div>

@@ -20,7 +20,7 @@ const BookingPageCardDetails = () => {
     const { id } = useParams()
     const intId = parseInt(id)
     const detailes = lodaerData.find(item => item.id === intId)
-    const { title, img, img1, img2, short_description, price1, price2, price3, long_description, details, venues } = detailes;
+    const { title,price1, price2, price3,  details, venues } = detailes;
     console.log(title);
 
     const backgroundStyle = {
@@ -43,22 +43,10 @@ const BookingPageCardDetails = () => {
     }, [])
 
 
-
-
-
-
-
-
     return (
         <div>
 
-
-
-
-
             <div>
-
-
 
                 <div style={backgroundStyle}>
                     <div className="max-w-screen-xl  mx-auto pt-10">
@@ -168,13 +156,6 @@ const BookingPageCardDetails = () => {
 
 
 
-
-
-
-
-
-
-
                 <div style={backgroundStyle2}>
 
                     <div>
@@ -210,21 +191,9 @@ const BookingPageCardDetails = () => {
                     </div>
 
 
-
-
-
                 </div>
 
-
-
             </div>
-
-
-
-
-
-
-
 
 
         </div>

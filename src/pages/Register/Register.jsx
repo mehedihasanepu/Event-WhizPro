@@ -2,11 +2,11 @@
 import singUp from "../../../src/assets/images/Signup.gif"
 import google from "../../../src/assets/images/icon/google.png"
 import github from "../../../src/assets/images/icon/github.png"
-import { Link,  useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../provider/AuthProvider";
-import { useContext, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { updateProfile } from "firebase/auth";
-import toast  from "react-hot-toast";
+import toast from "react-hot-toast";
 const Register = () => {
 
 
@@ -61,11 +61,6 @@ const Register = () => {
                 console.error(error);
             })
 
-
-
-
-
-
     }
     //Sing in with google
     const handleGoogleSingIn = () => {
@@ -83,10 +78,6 @@ const Register = () => {
 
 
 
-
-
-
-
     const backgroundStyle = {
         backgroundImage: `url('/src/assets/images/bg-img.svg')`,
         backgroundSize: 'cover',
@@ -96,7 +87,9 @@ const Register = () => {
     };
 
 
-
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
 
 
     return (
