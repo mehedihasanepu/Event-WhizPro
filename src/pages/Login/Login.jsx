@@ -4,7 +4,7 @@ import singInImg from "../../../src/assets/images/signin.gif"
 import google from "../../../src/assets/images/icon/google.png"
 import github from "../../../src/assets/images/icon/github.png"
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { AuthContext } from "../../provider/AuthProvider";
 import toast from "react-hot-toast";
 const Login = () => {
@@ -22,6 +22,7 @@ const Login = () => {
     const location = useLocation();
 
     const navigate = useNavigate()
+    const [loginError, setLoginError] = useState('');
 
     const handleLogin = e => {
         e.preventDefault();
@@ -36,10 +37,12 @@ const Login = () => {
             .then(result => {
                 console.log(result.user);
                 navigate(location?.state ? location.state : "/")
-                toast.success('Sing Up SuccessFull')
+                toast.success('Sing in SuccessFull')
             })
             .catch(error => {
                 console.error(error);
+                setLoginError("Invalid Email or Password")
+                toast.error('Invalid Email or Password')
             })
     }
 
@@ -48,11 +51,11 @@ const Login = () => {
     const handleGoogleSingIn = () => {
 
         googleSingIn()
-            .then(result => {
-                navigate("/")
-                console.log(result);
-                toast.success('Sing Up SuccessFull')
-            })
+        .then(result => {
+            console.log(result.user);
+            navigate(location?.state ? location.state : "/")
+            toast.success('Sing in SuccessFull')
+        })
             .catch(error => {
                 console.error(error);
             })
@@ -89,6 +92,7 @@ const Login = () => {
                                     </label>
                                     <input type="password" name="password" placeholder="password" className="input input-bordered" required />
                                 </div>
+                                <p className="text-red-600">{loginError}</p>
                                 <div className="form-control mt-6">
                                     <button className=" btn rounded-3xl bg-gradient-to-r from-[#ff4c05db] to-[#ffa719d8] text-white">Login Now</button>
                                 </div>

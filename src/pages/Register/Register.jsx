@@ -2,7 +2,7 @@
 import singUp from "../../../src/assets/images/Signup.gif"
 import google from "../../../src/assets/images/icon/google.png"
 import github from "../../../src/assets/images/icon/github.png"
-import { Link, Navigate, useNavigate } from "react-router-dom";
+import { Link,  useNavigate } from "react-router-dom";
 import { AuthContext } from "../../provider/AuthProvider";
 import { useContext, useState } from "react";
 import { updateProfile } from "firebase/auth";

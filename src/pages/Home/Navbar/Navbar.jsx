@@ -5,6 +5,7 @@ import { useLocation } from "react-router-dom";
 import { useContext } from "react";
 import UserProfile from "../../../componene/UserProfile/UserProfile";
 import { AuthContext } from "../../../provider/AuthProvider";
+import toast from "react-hot-toast";
 
 
 const Navbar = () => {
@@ -27,6 +28,7 @@ const Navbar = () => {
             })
             .catch(error => {
                 console.error(error);
+                toast.success('Sing Out SuccessFull')
             })
     }
 
@@ -42,6 +44,8 @@ const Navbar = () => {
                     <NavLink className=" lg:hidden text-xl font-semibold text-white p-2 px-4 rounded-lg lg:mr-10" to="/register">Register</NavLink>
                 </>
         }
+        <NavLink className="text-xl font-semibold text-white p-2 px-4 rounded-lg lg:mr-10" to="/booking">Booking</NavLink>
+
 
 
     </>
@@ -83,15 +87,15 @@ const Navbar = () => {
                             <button onClick={handleSingOut} className="btn bg-[#ffeacf]">Sing out</button>
 
                             :
-                            <div  className="space-x-2">
-                            <Link to="/login">
-                                <button className="btn bg-[#ffeacf]">Login</button>
-                            </Link>
-                            <Link to="/register">
-                                <button className="btn bg-[#ffeacf]">Sing Up</button>
-                            </Link>
-                            
-                            
+                            <div className="space-x-2">
+                                <Link to="/login">
+                                    <button className="btn bg-[#ffeacf]">Login</button>
+                                </Link>
+                                <Link to="/register">
+                                    <button className="btn bg-[#ffeacf]">Sing Up</button>
+                                </Link>
+
+
                             </div >
                     }
                 </div>

@@ -7,6 +7,8 @@ import Login from "../pages/Login/Login";
 import Register from "../pages/Register/Register";
 import ServiceDetails from "../pages/ServiceDetails/ServiceDetails";
 import PrivateRoute from "./privateRoute";
+import Booking from "../pages/Booking/Booking";
+import BookingPageCardDetails from "../componene/BookingPageCardDetails/BookingPageCardDetails";
 
 
 const router = createBrowserRouter([
@@ -30,7 +32,17 @@ const router = createBrowserRouter([
                 path:"/serviceDetails/:id",
                 element:<PrivateRoute><ServiceDetails></ServiceDetails></PrivateRoute>,
                 loader:()=> fetch("/data.json")
-            }
+            },
+            {
+                path:"/booking",
+                element:<Booking></Booking>,
+                loader:()=> fetch("/data.json")
+            },
+            {
+                path:"/bookingItemDetails/:id",
+                element:<PrivateRoute><BookingPageCardDetails></BookingPageCardDetails></PrivateRoute>,
+                loader:()=> fetch("/data.json")
+            },
         ]
     },
 ]);
